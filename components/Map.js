@@ -39,7 +39,7 @@ const Map = () => {
     >
       {origin && destination && (
         <MapViewDirections
-          apiKey={GOOGLE_MAPS_API_KEY}
+          apikey={GOOGLE_MAPS_API_KEY}
           origin={origin.description}
           destination={destination.description}
           strokeWidth={3}
